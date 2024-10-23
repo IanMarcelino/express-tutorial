@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send("<h1 style='color: blue;'>Teste HTML</h1>")
+  res.send("<h1 style='color: blue;'>Teste HTML!</h1>")
 })
 app.get('/first', (req, res) => {
   // query.params == filtros por palavras chaves
